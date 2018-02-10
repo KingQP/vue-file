@@ -1,0 +1,47 @@
+.login-title img {
+	width: 100vw;
+	height: 40vh;
+}
+
+.login-from-content {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+}
+
+.login-from-content .text {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.login-from-content .text,
+.login-from-content .password {
+	width: 100vw;
+	text-align: center;
+	margin: 0px auto 10px;
+}
+
+.login-from-content .text img,
+.login-from-content .password img {
+	width: 5vw;
+	height: 5vw;
+	margin-right: 10px;
+}
+
+.login-from-content .text input,
+.login-from-content .password input {
+	width: 60vw;
+	line-height: 1.5rem;
+	padding-top: 10px;
+}
+
+.btn {
+	width: 90vw;
+	height: 8vh;
+	border-radius: 1rem;
+	border:none;
+	background-color: orange;
+	color: #FFFFFF;
+	cursor:pointer;
+}
